@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    background: linear-gradient(0deg, #353941 32.6%, rgba(63, 68, 77, 0.53) 47.42%, rgba(231, 231, 231, 0.00) 84.28%);
+  }
+  
+  .container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .brand{
+    height: 210px;
+    margin-top: 60px;
+    margin-left: 32%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .highlight{
+    width: 572px;
+    height: 70px;
+    margin-left: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .caption{
+    width: 700px;
+    height: 110px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .mySlides img{
+    width: 490px;
+    height: 450px;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+    margin-left: 130%;
+    margin-top: 10%;
+  }
+
+  .products-button{
+    width: 220px;
+    height: 60px;
+    margin-top: 1%;
+    margin-left: 45%;
+    flex-shrink: 0;
+    border-radius: 540px;
+    background: #606060;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.70);
+    color: #FFF;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
