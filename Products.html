@@ -15,6 +15,11 @@
               </nav>
         </div>
 
+        <!--Disclaimer Message-->
+        <div id="disclaimer">
+            <p>Please note that you cannot remove items from your cart until you complete your purchase. Do not add any items to the cart unless you're sure to purchase them.</p>
+          </div>
+
 
         <!--Discount Advert-->
         <div class="discount-bar">
@@ -524,6 +529,11 @@
       </div> 
       
       <script>
+        // Disclaimer Alert
+        setTimeout(function() {
+        document.getElementById("disclaimer").style.display = "none";
+        }, 10000); // 10 seconds in milliseconds
+            
       // Get the add to cart buttons
       const addToCartButtons = document.querySelectorAll('#cart');
       
