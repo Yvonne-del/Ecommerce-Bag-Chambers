@@ -148,8 +148,8 @@ mix-blend-mode: multiply;
 
 .display-write{
 display: inline-block;
-margin-left: 15px;
-width: 299px; 
+margin-left: 10px;
+width: 280px; 
 white-space: pre-wrap;
 word-wrap: break-word;
 overflow-wrap: break-word;
@@ -161,9 +161,27 @@ font-weight: 700;
 line-height: normal;
 }
 
+.currency, .currency1{
+  display: inline-block;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: #000;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.currency1{
+  text-decoration: line-through;
+}
+
 .display-amount ,.display-amount1{
 display: inline-block;
-width: 100px;
+width: 80px;
+margin: 0;
 white-space: pre-wrap;
 word-wrap: break-word;
 overflow-wrap: break-word;
@@ -185,7 +203,7 @@ height: 50px;
 border-radius: 50px;
 background: #353941;
 margin-left: 15px;
-margin-right: 130px;
+margin-right: 105px;
 margin-top: 20px;
 justify-content: center;
 align-items: center;
@@ -219,8 +237,21 @@ border-radius: 6px;
 /* Cart page */
 
 .cart-listing {
-  width: 600px;
+  width: 1300px;
   margin: 0 auto;
+  margin-bottom: 500px;
+  background: #2c3036;
+  border: 2px solid black;
+}
+
+.name-cart{
+  text-align: center;
+  color: #eee;
+  font-family: Calibri;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
 }
 
 .cart-table {
@@ -230,16 +261,28 @@ border-radius: 6px;
 
 .cart-table th,
 .cart-table td {
-  border: 1px solid #ccc;
   padding: 10px;
+  border: 0.1px solid rgb(12, 12, 12);
+  color: #eee;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .cart-table th {
   background-color: #eee;
+  border: 1px solid #000;
+  background: #26282B;
+  color: #eee;
+  width: 500px;
 }
 
 .cart-table td img {
-  width: 100px;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
 }
 
 .cart-total {
@@ -250,9 +293,39 @@ border-radius: 6px;
 }
 
 .cart-total h3 {
-  font-size: 20px;
+  font-family: Calibri;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .cart-total #total-price {
   color: #ffffff;
+  font-family: Calibri;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.checkout{
+  margin: 2%;
+  margin-left: 3%;
+  width: 180px;
+  height: 55px;
+  border-radius: 40px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.50);
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.checkout:hover{
+    background: #b6b6b6;
 }
